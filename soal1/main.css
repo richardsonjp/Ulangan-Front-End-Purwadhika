@@ -1,0 +1,36 @@
+#ketupat{
+    margin: 300px
+}
+
+#ketupat{
+    display: grid;
+    grid-template-columns: 293px 293px 293px;
+    grid-auto-rows: 293px ;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    max-width: 930px;
+}
+
+
+
+.ketupat:nth-of-type(odd){
+    background-color: green
+}
+.ketupat:nth-of-type(even){
+    background-color: darkgreen
+}
+
+#ketupat{
+    transform: rotate(45deg);    
+}
+
+body{
+    background-color: gold
+}
+
+p {
+    font-size: 100px;
+    margin-top: 500px;
+    text-align: center;
+    font-family: 'Pacifico'
+}
